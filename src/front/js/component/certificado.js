@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { LuGithub } from "react-icons/lu";
 
 
-export const Certificado = () => {
+ const Certificado = () => {
 
     return <>
      <div  className="flex sm:flex-row mx-auto px-4 md:px-8 lg:px-16 xl:px-20 py-20  min-h-screen mt-0 mb-0">
@@ -40,3 +40,5 @@ export const Certificado = () => {
 
 
 }
+
+export default Certificado;

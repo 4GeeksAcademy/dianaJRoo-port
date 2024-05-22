@@ -9,7 +9,7 @@ import { FaBootstrap, FaReact, FaPython } from "react-icons/fa";
 import { SiFlask, SiMysql, SiPostman } from "react-icons/si";
 
 
-export const Home = () => {
+ const About = () => {
     const { store, actions } = useContext(Context);
 
     return (
@@ -54,3 +54,5 @@ export const Home = () => {
         </>
     );
 };
+
+export default About;
