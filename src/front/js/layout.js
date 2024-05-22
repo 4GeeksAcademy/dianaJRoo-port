@@ -3,14 +3,14 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 import { BackendURL } from "./component/backendURL";
 
-import { Home } from "./component/home";
-import { Certificado } from "./component/certificado";
+import { Home } from "./component/Home";
+import { Certificado } from "./component/Certificado";
 import { Demo } from "./pages/demo";
 import { Single } from "./pages/single";
 import injectContext from "./store/appContext";
 
-import { Navbar } from "./component/navbar";
-import { Footer } from "./component/footer";
+import { Navbar } from "./component/Navbar";
+import { Footer } from "./component/Footer";
 
 //create your first component
 const Layout = () => {
